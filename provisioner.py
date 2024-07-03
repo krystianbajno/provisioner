@@ -4,11 +4,13 @@ from collections import defaultdict
 import yaml
 import argparse
 import os
+import requests
 
 NO_DIST_HDR = "NoDistribute"
 CMP_DST_HDR = "CompiledToDistribute"
 EXP_HDR = "Exploits"
 UNDEFINED_CATEGORY = "UndefinedCategory"
+REPO_IDENT = "https://github.com"
 
 # Reset
 Color_Off='\033[0m'       # Text Reset
@@ -60,6 +62,10 @@ def get_tool_metadata_from_config(installation_config, url):
             
     return metadata_factory(url.split("/")[-1], UNDEFINED_CATEGORY, None, url)
 
+def provision_shell():
+    with open("list-of-tools-to-download.md") as toolsConf:
+        config = make_config(toolsConf.read())
+
 def provision_item(basePath, provisionKey, item):
     category = item.get("category")
     install_instructions = item.get("install")
@@ -72,7 +78,7 @@ def provision_item(basePath, provisionKey, item):
     print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("tools-list-parser.py")
+    parser = argparse.ArgumentParser("provisioner.py")
     parser.add_argument("install_dir", help="Install dir", type=str)
     args = parser.parse_args()
     
