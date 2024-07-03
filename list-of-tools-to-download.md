@@ -1,10 +1,11 @@
 # CompilerIgnore
 1. Parse the file
-2. If tool exists in category assign to category 
+2. If tool exists in category assign to category
 3. Else give unassigned dir
 4. Move repositories to dirs, group by compiled / to distribute and not. 
 Create directories according for each for in for. Exploits are seperate 
 category.
+5. The tools that are encrypted are personal. Algorithm is AES-256-GCM.
 # NoDistribute
 https://github.com/Syslifters/sysreptor
 https://github.com/fortra/impacket
@@ -125,6 +126,8 @@ https://github.com/gentilkiwi/kekeo
 https://github.com/fortra/nanodump
 https://github.com/outflanknl/Dumpert
 https://github.com/jellever/StreamDivert
+# Encrypted
+lorem ipsum
 # Packages
 build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 
 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl 
