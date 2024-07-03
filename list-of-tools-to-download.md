@@ -45,7 +45,6 @@ https://github.com/ShutdownRepo/smartbrute
 https://github.com/TarlogicSecurity/kerbrute
 https://github.com/ropnop/kerbrute
 https://github.com/fox-it/aclpwn.py
-https://github.com/dirkjanm/PrivExchange
 https://github.com/dirkjanm/forest-trust-tools
 https://github.com/dirkjanm/PKINITtools
 https://github.com/dirkjanm/adconnectdump
@@ -74,6 +73,22 @@ https://github.com/HavocFramework/Havoc
 https://github.com/projectdiscovery/subfinder
 https://github.com/Tib3rius/AutoRecon
 https://github.com/krystianbajno/scripts
+# Exploits 
+https://github.com/3ndG4me/AutoBlue-MS17-010
+https://github.com/dirkjanm/PrivExchange
+https://github.com/horizon3ai/proxyshell
+https://github.com/RickGeex/ProxyLogon
+https://github.com/leechristensen/SpoolSample
+https://github.com/Ridter/noPac
+https://github.com/cube0x0/CVE-2021-1675
+https://github.com/ly4k/PrintNightmare
+https://github.com/ly4k/PwnKit
+https://github.com/ly4k/SpoolFool
+https://github.com/danigargu/CVE-2020-0796
+https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION
+https://github.com/ExpLife0011/CVE-2019-0803
+https://github.com/ze0r/CVE-2018-8639-exp
+https://github.com/ExpLife0011/CVE-2019-0803
 # CompiledToDistribute
 https://github.com/Meckazin/ChromeKatz
 https://github.com/Stealerium/Stealerium
@@ -98,7 +113,6 @@ https://github.com/xl7dev/WebShell
 https://github.com/BlackArch/webshells
 https://github.com/outflanknl/C2-Tool-Collection
 https://github.com/The-Z-Labs/cli4bofs
-https://github.com/leechristensen/SpoolSample
 https://github.com/mandiant/capa
 https://github.com/Semperis/GoldenGMSA
 https://github.com/gentilkiwi/kekeo
