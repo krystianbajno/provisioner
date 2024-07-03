@@ -73,6 +73,7 @@ https://github.com/HavocFramework/Havoc
 https://github.com/projectdiscovery/subfinder
 https://github.com/Tib3rius/AutoRecon
 https://github.com/krystianbajno/scripts
+https://github.com/sqlmapproject/sqlmap
 # Exploits 
 https://github.com/3ndG4me/AutoBlue-MS17-010
 https://github.com/dirkjanm/PrivExchange
