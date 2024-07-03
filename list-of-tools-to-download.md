@@ -143,219 +143,154 @@ https://www.tracelabs.org/initiatives/osint-vm
 # InstallationConfig
 ActiveDirectoryTools:
   - name: bloodyAD
-    url: https://github.com/CravateRouge/bloodyAD
     install: ""
   - name: BloodHound
-    url: https://github.com/BloodHoundAD/BloodHound
     install: ""
   - name: Certipy
-    url: https://github.com/ly4k/Certipy
     install: ""
   - name: adidnsdump
-    url: https://github.com/dirkjanm/adidnsdump
     install: ""
   - name: pyGPOAbuse
-    url: https://github.com/Hackndo/pyGPOAbuse
     install: ""
   - name: GPOwned
-    url: https://github.com/X-C3LL/GPOwned
     install: ""
   - name: gMSADumper
-    url: https://github.com/micahvandeusen/gMSADumper
     install: ""
   - name: ldeep
-    url: https://github.com/franc-pentest/ldeep
     install: ""
   - name: ldapdomaindump
-    url: https://github.com/dirkjanm/ldapdomaindump
     install: ""
   - name: ldapsearch-ad
-    url: https://github.com/yaap7/ldapsearch-ad
     install: ""
   - name: targetedKerberoast
-    url: https://github.com/ShutdownRepo/targetedKerberoast
     install: ""
   - name: KrbRelay
-    url: https://github.com/cube0x0/KrbRelay
     install: ""
   - name: krbrelayx
-    url: https://github.com/dirkjanm/krbrelayx
     install: ""
   - name: forest-trust-tools
-    url: https://github.com/dirkjanm/forest-trust-tools
     install: ""
   - name: PKINITtools
-    url: https://github.com/dirkjanm/PKINITtools
     install: ""
   - name: adconnectdump
-    url: https://github.com/dirkjanm/adconnectdump
     install: ""
   - name: ROADtools
-    url: https://github.com/dirkjanm/ROADtools
     install: ""
   - name: Masky
-    url: https://github.com/Z4kSec/Masky
     install: ""
   - name: fox-it/aclpwn.py
-    url: https://github.com/fox-it/aclpwn.py
     install: ""
   - name: Coercer
-    url: https://github.com/p0dalirius/Coercer
     install: ""
   - name: pywhisker
-    url: https://github.com/ShutdownRepo/pywhisker
     install: ""
   - name: pyLAPS
-    url: https://github.com/p0dalirius/pyLAPS
     install: ""
 
 NetworkSecurityAndMonitoringTools:
   - name: NetExec
-    url: https://github.com/Pennyw0rth/NetExec
     install: ""
   - name: Responder
-    url: https://github.com/SpiderLabs/Responder
     install: ""
   - name: Inveigh
-    url: https://github.com/Kevin-Robertson/Inveigh
     install: ""
   - name: pretender
-    url: https://github.com/RedTeamPentesting/pretender
     install: ""
   - name: mitm6
-    url: https://github.com/dirkjanm/mitm6
     install: ""
   - name: mitmproxy
-    url: https://github.com/mitmproxy/mitmproxy
     install: ""
   - name: bettercap
-    url: https://github.com/bettercap/bettercap
     install: ""
   - name: kismet
-    url: https://github.com/kismetwireless/kismet
     install: ""
 
 VulnerabilityScannersAndExploitationFrameworks:
   - name: Impacket
-    url: https://github.com/fortra/impacket
     install: ""
   - name: Nuclei
-    url: https://github.com/projectdiscovery/nuclei
     install: ""
-  - name: Nuclei Templates
-    url: https://github.com/projectdiscovery/nuclei-templates
+  - name: Nuclei-Templates
     install: ""
   - name: ZAP
-    url: https://github.com/zaproxy/zaproxy
     install: ""
   - name: wpscan
-    url: https://github.com/wpscanteam/wpscan
     install: ""
   - name: PassTheCert
-    url: https://github.com/AlmondOffSec/PassTheCert
     install: ""
   - name: EvilClippy
-    url: https://github.com/outflanknl/EvilClippy
     install: ""
 
 CredentialDumpingAndPasswordRecoveryTools:
   - name: LaZagne
-    url: https://github.com/AlessandroZ/LaZagne
     install: ""
   - name: Dumpert
-    url: https://github.com/outflanknl/Dumpert
     install: ""
   - name: ChromeKatz
-    url: https://github.com/Meckazin/ChromeKatz
     install: ""
   - name: pypykatz
-    url: https://github.com/skelsec/pypykatz
     install: ""
   - name: DonPAPI
-    url: https://github.com/login-securite/DonPAPI
     install: ""
   - name: PCredz
-    url: https://github.com/lgandx/PCredz
     install: ""
   - name: mimipenguin
-    url: https://github.com/huntergregal/mimipenguin
     install: ""
 
 DataExfiltrationAndPostExploitationTools:
   - name: ligolo-ng
-    url: https://github.com/nicocha30/ligolo-ng
     install: ""
   - name: Stealerium
-    url: https://github.com/Stealerium/Stealerium
     install: ""
   - name: Adamantium-Thief
-    url: https://github.com/LimerBoy/Adamantium-Thief
     install: ""
   - name: Sliver
-    url: https://github.com/BishopFox/sliver
     install: ""
   - name: Havoc
-    url: https://github.com/HavocFramework/Havoc
     install: ""
 
 ConfigurationAndDeploymentTools:
   - name: SharpSCCM
-    url: https://github.com/Mayyhem/SharpSCCM
     install: ""
   - name: sccmhunter
-    url: https://github.com/garrettfoster13/sccmhunter
     install: ""
   - name: sccmwtf
-    url: https://github.com/xpn/sccmwtf
     install: ""
 
 NetworkAndPacketAnalysisTools:
   - name: BruteShark
-    url: https://github.com/odedshimon/BruteShark
     install: ""
   - name: scapy
-    url: https://github.com/secdev/scapy
     install: ""
 
 Wordlists:
   - name: SecLists
-    url: https://github.com/danielmiessler/SecLists
     install: ""
 
 SourceCodeAndSensitiveDataAnalysisTools:
   - name: gitleaks
-    url: https://github.com/gitleaks/gitleaks
     install: ""
   - name: gitrob
-    url: https://github.com/michenriksen/gitrob
     install: ""
   - name: trufflehog
-    url: https://github.com/trufflesecurity/trufflehog
     install: ""
   - name: Snaffler
-    url: https://github.com/SnaffCon/Snaffler
     install: ""
   - name: MANSPIDER
-    url: https://github.com/blacklanternsecurity/MANSPIDER
     install: ""
 
 FileTransfer:
   - name: updog
-    url: https://github.com/sc0tfree/updog
     install: ""
   - name: gist
-    url: https://gist.github.com/touilleMan/eb02ea40b93e52604938
     install: ""
 
 ConnectionTools:
   - name: dbeaver
-    url: https://github.com/dbeaver/dbeaver
     install: ""
   - name: Remmina
-    url: https://github.com/FreeRDP/Remmina
     install: ""
 
 ReportingTools:
   - name: sysreptor
-    url: https://github.com/Syslifters/sysreptor
     install: ""
