@@ -110,11 +110,11 @@ https://github.com/evild3ad/Collect-MemoryDump
 https://github.com/TheWover/donut
 https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
 https://github.com/mandiant/SharPersist
-https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+https://download.sysinternals.com/files/SysinternalsSuite.zip
 https://github.com/BeichenDream/GodPotato
 https://github.com/antonioCoco/JuicyPotatoNG
 https://github.com/Velocidex/WinPmem
-https://www.sans.org/tools/kape/
+https://f001.backblazeb2.com/file/EricZimmermanTools/Get-ZimmermanTools.zip
 https://github.com/GhostPack/Seatbelt
 https://github.com/xl7dev/WebShell
 https://github.com/BlackArch/webshells
