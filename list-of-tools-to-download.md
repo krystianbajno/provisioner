@@ -124,6 +124,14 @@ https://github.com/gentilkiwi/kekeo
 https://github.com/fortra/nanodump
 https://github.com/outflanknl/Dumpert
 https://github.com/t0thkr1s/gpp-decrypt
+# Packages 
+build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 
+libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl 
+zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison 
+libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 
+dirmngr searchsploit metasploit-cli
+# Pip
+burpr httpx
 # VM
 https://github.com/mandiant/flare-vm
 https://github.com/mandiant/commando-vm
