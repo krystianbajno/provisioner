@@ -74,6 +74,10 @@ https://github.com/projectdiscovery/subfinder
 https://github.com/Tib3rius/AutoRecon
 https://github.com/krystianbajno/scripts
 https://github.com/sqlmapproject/sqlmap
+https://github.com/kgretzky/evilginx2
+https://github.com/drk1wi/Modlishka
+https://github.com/6point6/dmarc_checker
+https://github.com/6point6/mail-spoofer
 # Exploits 
 https://github.com/3ndG4me/AutoBlue-MS17-010
 https://github.com/dirkjanm/PrivExchange
