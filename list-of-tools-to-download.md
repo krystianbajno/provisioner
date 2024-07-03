@@ -78,6 +78,7 @@ https://github.com/kgretzky/evilginx2
 https://github.com/drk1wi/Modlishka
 https://github.com/6point6/dmarc_checker
 https://github.com/6point6/mail-spoofer
+https://github.com/t0thkr1s/gpp-decrypt
 # Exploits 
 https://github.com/3ndG4me/AutoBlue-MS17-010
 https://github.com/dirkjanm/PrivExchange
@@ -123,13 +124,13 @@ https://github.com/Semperis/GoldenGMSA
 https://github.com/gentilkiwi/kekeo
 https://github.com/fortra/nanodump
 https://github.com/outflanknl/Dumpert
-https://github.com/t0thkr1s/gpp-decrypt
-# Packages 
+https://github.com/jellever/StreamDivert
+# Packages
 build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 
 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl 
 zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison 
 libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 
-dirmngr searchsploit metasploit-cli
+dirmngr searchsploit
 # Pip
 burpr httpx
 # VM
