@@ -2,6 +2,8 @@
 import re
 from collections import defaultdict
 import yaml
+import argparse
+import os
 
 NO_DIST_HDR = "NoDistribute"
 CMP_DST_HDR = "CompiledToDistribute"
@@ -58,10 +60,24 @@ def get_tool_metadata_from_config(installation_config, url):
             
     return metadata_factory(url.split("/")[-1], UNDEFINED_CATEGORY, None, url)
 
-def provision_item(item):
-    pass
+def provision_item(basePath, provisionKey, item):
+    category = item.get("category")
+    install_instructions = item.get("install")
+    url = item.get("url")
+    name = item.get("name")
+    
+    install_dir = f"{basePath}/{provisionKey}/{category}/"
+    os.makedirs(install_dir, exist_ok=True)
+    
+    print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser("tools-list-parser.py")
+    parser.add_argument("install_dir", help="Install dir", type=str)
+    args = parser.parse_args()
+    
+    basePath = args.install_dir
+
     with open("list-of-tools-to-download.md") as toolsConf:
         config = make_config(toolsConf.read())
         
@@ -78,11 +94,6 @@ if __name__ == "__main__":
             if not item: continue
             
             tool_metadata = get_tool_metadata_from_config(InstallationConfig, item)
-            category = tool_metadata.get("category")
-            install_instructions = tool_metadata.get("install")
-            url = tool_metadata.get("url")
-            name = tool_metadata.get("name")
             
-            print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
-            provision_item(item)
+            provision_item(basePath, provisionKey, tool_metadata)
 
