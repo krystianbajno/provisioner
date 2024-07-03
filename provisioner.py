@@ -63,8 +63,13 @@ def get_tool_metadata_from_config(installation_config, url):
     return metadata_factory(url.split("/")[-1], UNDEFINED_CATEGORY, None, url)
 
 def provision_shell():
-    with open("list-of-tools-to-download.md") as toolsConf:
-        config = make_config(toolsConf.read())
+    with open("bashrc") as bashrc:
+        # write bashrc to ~ 
+        pass
+        
+    with open("zshrc") as zshrc:
+        # write zshrc to ~
+        pass
 
 def provision_item(basePath, provisionKey, item):
     category = item.get("category")
