@@ -6,6 +6,7 @@
 5. The tools that are encrypted are personal. Algorithm is AES-256-GCM.
 # NoDistribute
 https://github.com/Syslifters/sysreptor
+https://github.com/vanhauser-thc/thc-hydra
 https://github.com/fortra/impacket
 https://github.com/ShutdownRepo/pywhisker
 https://github.com/Pennyw0rth/NetExec
@@ -76,6 +77,14 @@ https://github.com/drk1wi/Modlishka
 https://github.com/6point6/dmarc_checker
 https://github.com/6point6/mail-spoofer
 https://github.com/t0thkr1s/gpp-decrypt
+# Web
+https://github.com/OJ/gobuster
+https://github.com/xmendez/wfuzz
+https://github.com/ffuf/ffuf
+https://github.com/zaproxy/zaproxy
+https://github.com/projectdiscovery/katana
+https://github.com/opsdisk/metagoofil
+# Cloud
 # Exploits 
 https://github.com/3ndG4me/AutoBlue-MS17-010
 https://github.com/dirkjanm/PrivExchange
@@ -85,6 +94,7 @@ https://github.com/leechristensen/SpoolSample
 https://github.com/Ridter/noPac
 https://github.com/cube0x0/CVE-2021-1675
 https://github.com/ly4k/PrintNightmare
+https://github.com/topotam/PetitPotam
 https://github.com/ly4k/PwnKit
 https://github.com/ly4k/SpoolFool
 https://github.com/danigargu/CVE-2020-0796
