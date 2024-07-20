@@ -2,9 +2,7 @@
 1. Parse the file
 2. If tool exists in category assign to category
 3. Else give unassigned dir
-4. Move repositories to dirs, group by compiled / to distribute and not. 
-Create directories according for each for in for. Exploits are seperate 
-category.
+4. Move repositories to dirs, group by compiled / to distribute and not. Create directories according for each for in for. Exploits are seperate category.
 5. The tools that are encrypted are personal. Algorithm is AES-256-GCM.
 # NoDistribute
 https://github.com/Syslifters/sysreptor
@@ -69,8 +67,6 @@ https://github.com/Z4kSec/Masky
 https://github.com/SnaffCon/Snaffler
 https://github.com/blacklanternsecurity/MANSPIDER
 https://github.com/huntergregal/mimipenguin
-https://github.com/BishopFox/sliver
-https://github.com/HavocFramework/Havoc
 https://github.com/projectdiscovery/subfinder
 https://github.com/Tib3rius/AutoRecon
 https://github.com/krystianbajno/scripts
@@ -96,22 +92,55 @@ https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION
 https://github.com/ExpLife0011/CVE-2019-0803
 https://github.com/ze0r/CVE-2018-8639-exp
 https://github.com/ExpLife0011/CVE-2019-0803
+# C2
+https://github.com/xx0hcd/Malleable-C2-Profiles
+https://github.com/threatexpress/malleable-c2
+https://github.com/rsmudge/Malleable-C2-Profiles
+https://github.com/Tylous/SourcePoint
+https://github.com/BishopFox/sliver
+https://github.com/HavocFramework/Havoc
+https://github.com/HavocFramework/Modules 
+https://github.com/Mr-Un1k0d3r/SCShell 
+https://github.com/anthemtotheego/InlineExecute-Assembly
+https://github.com/Octoberfest7/Inline-Execute-PE
+https://github.com/med0x2e/ExecuteAssembly
+https://github.com/praetorian-inc/PortBender
+https://github.com/mgeeky/cobalt-arsenal
+https://github.com/trustedsec/CS-Situational-Awareness-BOF
+https://github.com/0xthirteen/StayKit
+https://github.com/0xthirteen/MoveKit
+https://github.com/fireeye/SharPersist
+https://github.com/bitsadmin/nopowershell
+https://github.com/fortra/No-Consolation
+https://github.com/rsmudge/ElevateKit
+https://github.com/phra/PEzor
+https://github.com/CCob/SharpBlock
+https://github.com/rasta-mouse/TikiTorch
+https://github.com/TheWover/donut
+https://github.com/h3ll0clar1c3/CRTO
+https://github.com/REDMED-X/OperatorsKit
+https://github.com/outflanknl/C2-Tool-Collection
+https://github.com/outflanknl/HelpColor
 # CompiledToDistribute
+https://github.com/Mr-Un1k0d3r/SCShell
 https://github.com/Meckazin/ChromeKatz
+https://github.com/antonioCoco/RunasCs
 https://github.com/Stealerium/Stealerium
 https://github.com/AlessandroZ/LaZagne 
 https://github.com/LimerBoy/Adamantium-Thief
 https://github.com/peass-ng/PEASS-ng
 https://github.com/BloodHoundAD/SharpHound
+https://github.com/outflanknl/SharpHide
 https://github.com/GhostPack/Rubeus
 https://github.com/ParrotSec/mimikatz
 https://github.com/keydet89/RegRipper3.0
 https://github.com/evild3ad/Collect-MemoryDump
 https://github.com/TheWover/donut
-https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
+https://github.com/PowerShellMafia/PowerSploit/
 https://github.com/mandiant/SharPersist
 https://download.sysinternals.com/files/SysinternalsSuite.zip
 https://github.com/BeichenDream/GodPotato
+https://github.com/foxglovesec/RottenPotato
 https://github.com/antonioCoco/JuicyPotatoNG
 https://github.com/Velocidex/WinPmem
 https://f001.backblazeb2.com/file/EricZimmermanTools/Get-ZimmermanTools.zip
@@ -126,14 +155,13 @@ https://github.com/gentilkiwi/kekeo
 https://github.com/fortra/nanodump
 https://github.com/outflanknl/Dumpert
 https://github.com/jellever/StreamDivert
+https://github.com/itm4n/PrivescCheck
+https://github.com/S3cur3Th1sSh1t/WinPwn
+https://github.com/FSecureLABS/incognito
 # Encrypted
-lorem ipsum
+lorem ipum
 # Packages
-build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 
-libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl 
-zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison 
-libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 
-dirmngr searchsploit
+build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 dirmngr searchsploit
 # Pip
 burpr httpx
 # VM
