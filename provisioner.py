@@ -70,14 +70,21 @@ def provision_shell():
         zshrcProvisionData = zshrcProvisionHandle.read()
     
     for zshrcTargetPath in ZSHRC:
+        print(f"Provisioning shell at {zshrcTargetPath}")
         with open(zshrcTargetPath, "r+") as zshrcTargetHandle:
             # Backup ZSH
-            with open(zshrcTargetPath+".bak", "w") as zshrcBackupHandle:            
+            zshrcBackupPath = zshrcTargetPath + ".bak"
+            with open(zshrcBackupPath, "w") as zshrcBackupHandle:  
+                print(f"{Green}+{Color_Off} Saving backup to {zshrcBackupPath}")
+          
                 data = zshrcTargetHandle.read()
                 zshrcTargetHandle.seek(0)
                 zshrcBackupHandle.write(data)
 
+            print(f"{Green}+{Color_Off} Saving .zshrc to {zshrcTargetPath}")
             zshrcTargetHandle.write(zshrcProvisionData)
+
+    print(f"{Green}[+] Shell configuration provisioned{Color_Off}")
 
 def provision_item(basePath, provisionKey, item):
     category = item.get("category")
@@ -93,13 +100,21 @@ def provision_item(basePath, provisionKey, item):
 def main():
     parser = argparse.ArgumentParser("provisioner.py")
     parser.add_argument("install_dir", help="Install dir", type=str)
+    parser.add_argument("--shell-only", dest="shell_only", action="store_true", default=False)
+    parser.add_argument("--no-shell", dest="no_shell", action="store_true", default=False)
+
     args = parser.parse_args()
     
     basePath = args.install_dir
-    
-    provision_shell()
-    return
+    no_shell = args.no_shell
+    shell_only = args.shell_only
 
+    if not no_shell:
+        provision_shell()
+        
+    if shell_only:
+        return
+    
     with open("list-of-tools-to-download.md") as toolsConf:
         config = make_config(toolsConf.read())
         
