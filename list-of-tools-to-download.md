@@ -6,6 +6,7 @@
 5. The tools that are encrypted are personal. Algorithm is AES-256-GCM.
 # NoDistribute
 https://github.com/Syslifters/sysreptor
+https://github.com/Mr-Un1k0d3r/SCShell
 https://github.com/vanhauser-thc/thc-hydra
 https://github.com/fortra/impacket
 https://github.com/ShutdownRepo/pywhisker
@@ -80,6 +81,7 @@ https://github.com/t0thkr1s/gpp-decrypt
 https://github.com/Dec0ne/ShadowSpray
 # Web
 https://github.com/OJ/gobuster
+https://github.com/epi052/feroxbuster
 https://github.com/xmendez/wfuzz
 https://github.com/ffuf/ffuf
 https://github.com/zaproxy/zaproxy
@@ -133,7 +135,7 @@ https://github.com/REDMED-X/OperatorsKit
 https://github.com/outflanknl/C2-Tool-Collection
 https://github.com/outflanknl/HelpColor
 # CompiledToDistribute
-https://github.com/Mr-Un1k0d3r/SCShell
+https://github.com/RustScan/RustScan
 https://github.com/Meckazin/ChromeKatz
 https://github.com/antonioCoco/RunasCs
 https://github.com/Stealerium/Stealerium
@@ -170,6 +172,8 @@ https://github.com/itm4n/PrivescCheck
 https://github.com/S3cur3Th1sSh1t/WinPwn
 https://github.com/FSecureLABS/incognito
 https://github.com/Dec0ne/KrbRelayUp
+https://github.com/xl7dev/WebShell
+https://github.com/0dayCTF/reverse-shell-generator
 # Encrypted
 https://github.com/krystianbajno/armory
 # Packages
