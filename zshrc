@@ -1,4 +1,4 @@
-logger(){
+logstuff(){
 
     while true; do
 
@@ -16,7 +16,7 @@ function IP_ADDR {
     ifconfig $(route -n | grep ^0.0.0.0 | awk '{print $NF}') | grep inet | grep -v inet6 | awk '{print $2}'
 }
 function TIME {
-    print `date +%H:%M:%S`
+    print `date +%Y-%m-%d/%H:%M:%S`
 }
 
 # ~/.zshrc file for zsh interactive shells.
