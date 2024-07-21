@@ -66,15 +66,18 @@ def get_tool_metadata_from_config(installation_config, url):
 def provision_shell():
     ZSHRC = [ROOT_ZSHRC, USER_ZSHRC]
 
-    # backup zshs
-    with open("zshrc") as prov:
-        prov_contents = prov.read()
-        for targetPwd in ZSHRC:
-            with open(targetPwd, "rw") as targetHandle:
-                with open(targetPwd+"bak", "w") as bak:
-                    bak.write(targetHandle.read())
-                targetHandle.write(prov_contents)
-                
+    with open("zshrc") as zshrcProvisionHandle:
+        zshrcProvisionData = zshrcProvisionHandle.read()
+    
+    for zshrcTargetPath in ZSHRC:
+        with open(zshrcTargetPath, "r+") as zshrcTargetHandle:
+            # Backup ZSH
+            with open(zshrcTargetPath+".bak", "w") as zshrcBackupHandle:            
+                data = zshrcTargetHandle.read()
+                zshrcTargetHandle.seek(0)
+                zshrcBackupHandle.write(data)
+
+            zshrcTargetHandle.write(zshrcProvisionData)
 
 def provision_item(basePath, provisionKey, item):
     category = item.get("category")
