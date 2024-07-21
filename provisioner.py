@@ -13,6 +13,8 @@ EXP_HDR = "Exploits"
 WEB_HDR = "Web"
 CRYPT_HDR = "Encrypted"
 C2_HDR = "C2"
+PIP_HDR = "Pip"
+PKG_HDR = "Packages"
 
 UNDEFINED_CATEGORY = "UndefinedCategory"
 REPO_IDENT = "https://github.com"
@@ -131,6 +133,12 @@ def provision_item(basePath, provisionKey, item):
 
     print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
+def provision_pip(PipConfig):
+    subprocess.run(f"pip3 install {PipConfig}", shell=True, text=True, capture_output=True)
+
+def provision_packages(PackagesConfig):
+    subprocess.run(f"apt install {PackagesConfig}", shell=True, text=True, capture_output=True)
+
 def main():
     parser = argparse.ArgumentParser("provisioner.py")
     parser.add_argument("install_dir", help="Install dir", type=str)
@@ -160,8 +168,14 @@ def main():
         "exploits": config.get(EXP_HDR), 
         "web": config.get(WEB_HDR),
         "encrypted": config.get(CRYPT_HDR),
-        "c2": config.get(C2_HDR)  
+        "c2": config.get(C2_HDR)
     }
+    
+    PipConfig = config.get(PIP_HDR)
+    PackagesConfig = config.get(PKG_HDR)
+    
+    provision_pip(PipConfig)
+    provision_packages(PackagesConfig)
     
     InstallationConfig = yaml.safe_load(config.get("InstallationConfig"))
     
