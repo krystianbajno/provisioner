@@ -255,11 +255,11 @@ ScannersAndExploitation:
     install: ""
   - name: impacket
     install: ""
-  - name: Nuclei
+  - name: nuclei
     install: ""
-  - name: Nuclei-Templates
+  - name: nuclei-templates
     install: ""
-  - name: ZAP
+  - name: zaproxy
     install: ""
   - name: wpscan
     install: ""
