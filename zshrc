@@ -1,4 +1,4 @@
-logstuff(){
+logger(){
 
     while true; do
 
