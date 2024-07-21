@@ -134,9 +134,11 @@ def provision_item(basePath, provisionKey, item):
     print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
 def provision_pip(PipConfig):
+    print(f"{Green} + {Color_Off} Provisioning Python modules")
     subprocess.run(f"pip3 install {PipConfig}", shell=True, text=True, capture_output=True)
 
 def provision_packages(PackagesConfig):
+    print(f"{Green} + {Color_Off} Provisioning apt packages")
     subprocess.run(f"apt install {PackagesConfig}", shell=True, text=True, capture_output=True)
 
 def main():
