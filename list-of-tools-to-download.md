@@ -253,7 +253,7 @@ NetworkSecurityAndMonitoringTools:
 ScannersAndExploitation:
   - name: AutoRecon
     install: ""
-  - name: Impacket
+  - name: impacket
     install: ""
   - name: Nuclei
     install: ""
@@ -328,7 +328,7 @@ CredentialDumping:
     install: ""
   - name: Rubeus
     install: ""
-    
+
 PostExploitationTools:
   - name: ligolo-ng
     install: ""
