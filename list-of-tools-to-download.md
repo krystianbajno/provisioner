@@ -77,6 +77,7 @@ https://github.com/drk1wi/Modlishka
 https://github.com/6point6/dmarc_checker
 https://github.com/6point6/mail-spoofer
 https://github.com/t0thkr1s/gpp-decrypt
+https://github.com/Dec0ne/ShadowSpray
 # Web
 https://github.com/OJ/gobuster
 https://github.com/xmendez/wfuzz
@@ -168,6 +169,7 @@ https://github.com/jellever/StreamDivert
 https://github.com/itm4n/PrivescCheck
 https://github.com/S3cur3Th1sSh1t/WinPwn
 https://github.com/FSecureLABS/incognito
+https://github.com/Dec0ne/KrbRelayUp
 # Encrypted
 https://github.com/krystianbajno/armory
 # Packages
