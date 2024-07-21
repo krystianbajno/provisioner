@@ -8,6 +8,10 @@ import os
 NO_DIST_HDR = "NoDistribute"
 CMP_DST_HDR = "CompiledToDistribute"
 EXP_HDR = "Exploits"
+WEB_HDR = "Web"
+CRYPT_HDR = "Encrypted"
+C2_HDR = "C2"
+
 UNDEFINED_CATEGORY = "UndefinedCategory"
 REPO_IDENT = "https://github.com"
 ROOT_ZSHRC = "/root/.zshrc"
@@ -121,7 +125,10 @@ def main():
     provisioningConfigurations = {
         "no-distribute": config.get(NO_DIST_HDR),
         "compiled-to-distribute": config.get(CMP_DST_HDR),
-        "exploits": config.get(EXP_HDR)  
+        "exploits": config.get(EXP_HDR), 
+        "web": config.get(WEB_HDR),
+        "encrypted": config.get(CRYPT_HDR),
+        "c2": config.get(C2_HDR)  
     }
     
     InstallationConfig = yaml.safe_load(config.get("InstallationConfig"))

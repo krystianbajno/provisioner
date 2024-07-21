@@ -87,7 +87,6 @@ https://github.com/ffuf/ffuf
 https://github.com/zaproxy/zaproxy
 https://github.com/projectdiscovery/katana
 https://github.com/opsdisk/metagoofil
-# Cloud
 # Exploits 
 https://github.com/3ndG4me/AutoBlue-MS17-010
 https://github.com/dirkjanm/PrivExchange
