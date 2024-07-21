@@ -38,7 +38,7 @@ https://github.com/odedshimon/BruteShark
 https://github.com/xpn/sccmwtf
 https://github.com/nicocha30/ligolo-ng
 https://github.com/p0dalirius/Coercer
-https://github.com/AlmondOffSec/PassTheCert/
+https://github.com/AlmondOffSec/PassTheCert
 https://github.com/franc-pentest/ldeep
 https://github.com/dirkjanm/ldapdomaindump
 https://github.com/yaap7/ldapsearch-ad
@@ -148,7 +148,7 @@ https://github.com/ParrotSec/mimikatz
 https://github.com/keydet89/RegRipper3.0
 https://github.com/evild3ad/Collect-MemoryDump
 https://github.com/TheWover/donut
-https://github.com/PowerShellMafia/PowerSploit/
+https://github.com/PowerShellMafia/PowerSploit
 https://github.com/mandiant/SharPersist
 https://download.sysinternals.com/files/SysinternalsSuite.zip
 https://github.com/BeichenDream/GodPotato

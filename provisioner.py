@@ -4,6 +4,8 @@ from collections import defaultdict
 import yaml
 import argparse
 import os
+import subprocess 
+import urllib.request
 
 NO_DIST_HDR = "NoDistribute"
 CMP_DST_HDR = "CompiledToDistribute"
@@ -112,9 +114,21 @@ def provision_item(basePath, provisionKey, item):
     url = item.get("url")
     name = item.get("name")
     
-    install_dir = f"{basePath}/{provisionKey}/{category}/"
+    install_dir = f"{basePath}/{provisionKey}/{category}/{name}"
     os.makedirs(install_dir, exist_ok=True)
     
+    if REPO_IDENT in url:
+        subprocess.run(["git", "clone", item.get("url"), install_dir], shell=True, text=True, capture_output=True)
+    else:
+        filename = os.path.basename(url)
+        response = urllib.request.urlopen(url)
+        content = response.read()
+        with open(install_dir + "/" + filename, 'wb') as file:
+            file.write(content)
+    
+    if install_instructions:
+        subprocess.run(f'cd {install_dir} && {install_instructions}', shell=True, text=True, capture_output=True)
+
     print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
 def main():

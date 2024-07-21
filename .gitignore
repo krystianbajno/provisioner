@@ -4,3 +4,5 @@ no-distribute/
 encrypted/
 c2/
 web/
+__pycache__
+server/output
