@@ -247,8 +247,12 @@ NetworkSecurityAndMonitoringTools:
     install: ""
   - name: kismet
     install: ""
+  - name: scripts
+    install: ""
 
-VulnerabilityScannersAndExploitationFrameworks:
+ScannersAndExploitation:
+  - name: AutoRecon
+    install: ""
   - name: Impacket
     install: ""
   - name: Nuclei
@@ -263,8 +267,41 @@ VulnerabilityScannersAndExploitationFrameworks:
     install: ""
   - name: EvilClippy
     install: ""
+  - name: RustScan
+    install: ""
+  - name: AutoBlue-MS17-010
+    install: ""
+  - name: PrivExchange
+    install: ""
+  - name: proxyshell
+    install: ""
+  - name: ProxyLogon
+    install: ""
+  - name: SpoolSample
+    install: ""
+  - name: noPac
+    install: ""
+  - name: CVE-2021-1675
+    install: ""
+  - name: PrintNightmare
+    install: ""
+  - name: PetitPotam
+    install: ""
+  - name: PwnKit
+    install: ""
+  - name: SpoolFool
+    install: ""
+  - name: CVE-2020-0796
+    install: ""
+  - name: CVE-2020-0787-EXP-ALL-WINDOWS-VERSION
+    install: ""
+  - name: CVE-2019-0803
+    install: ""
+  - name: CVE-2018-8639-exp
+    install: ""
+    install: ""
 
-CredentialDumpingAndPasswordRecoveryTools:
+CredentialDumping:
   - name: LaZagne
     install: ""
   - name: Dumpert
@@ -279,17 +316,181 @@ CredentialDumpingAndPasswordRecoveryTools:
     install: ""
   - name: mimipenguin
     install: ""
-
-DataExfiltrationAndPostExploitationTools:
-  - name: ligolo-ng
-    install: ""
   - name: Stealerium
     install: ""
   - name: Adamantium-Thief
     install: ""
+  - name: kekeo
+    install: ""
+  - name: ChromeKatz
+    install: ""
+  - name: mimikatz
+    install: ""
+  - name: Rubeus
+    install: ""
+    
+PostExploitationTools:
+  - name: ligolo-ng
+    install: ""
   - name: Sliver
     install: ""
   - name: Havoc
+    install: ""
+  - name: Modules
+    install: ""
+  - name: InlineExecute-Assembly
+    install: ""
+  - name: Inline-Execute-PE
+    install: ""
+  - name: ExecuteAssembly
+    install: ""
+  - name: PortBender
+    install: ""
+  - name: cobalt-arsenal
+    install: ""
+  - name: CS-Situational-Awareness-BOF
+    install: ""
+  - name: StayKit
+    install: ""
+  - name: MoveKit
+    install: ""
+  - name: SharPersist
+    install: ""
+  - name: nopowershell
+    install: ""
+  - name: No-Consolation
+    install: ""
+  - name: ElevateKit
+    install: ""
+  - name: PEzor
+    install: ""
+  - name: SharpBlock
+    install: ""
+  - name: TikiTorch
+    install: ""
+  - name: donut
+    install: ""
+  - name: CRTO
+    install: ""
+  - name: OperatorsKit
+    install: ""
+  - name: HelpColor
+    install: ""
+  - name: C2-Tool-Collection
+    install: ""
+  - name: reverse-shell-generator
+    install: ""
+  - name: RunasCs
+    install: ""
+  - name: PEASS-ng
+    install: ""
+  - name: SharpHound
+    install: ""
+  - name: SharpHide
+    install: ""
+  - name: RegRipper3.0
+    install: ""
+  - name: Collect-MemoryDump
+    install: ""
+  - name: donut
+    install: ""
+  - name: PowerSploit
+    install: ""
+  - name: SharPersist
+    install: ""
+  - name: SysinternalsSuite
+    install: ""
+  - name: WinPmem
+    install: ""
+  - name: ZimmermanTools
+    install: ""
+  - name: Seatbelt
+    install: ""
+  - name: WebShell
+    install: ""
+  - name: webshells
+    install: ""
+  - name: C2-Tool-Collection
+    install: ""
+  - name: cli4bofs
+    install: ""
+  - name: capa
+    install: ""
+  - name: GoldenGMSA
+    install: ""
+  - name: nanodump
+    install: ""
+  - name: StreamDivert
+    install: ""
+  - name: PrivescCheck
+    install: ""
+  - name: WinPwn
+    install: ""
+  - name: incognito
+    install: ""
+  - name: KrbRelayUp
+    install: ""
+  - name: GodPotato
+    install: ""
+  - name: RottenPotato
+    install: ""
+  - name: JuicyPotatoNG
+    install: ""
+  - name: Malleable-C2-Profiles
+    install: ""
+  - name: threatexpress/malleable-c2
+    install: ""
+  - name: rsmudge/Malleable-C2-Profiles
+    install: ""
+  - name: Tylous/SourcePoint
+    install: ""
+  - name: BishopFox/sliver
+    install: ""
+  - name: HavocFramework/Havoc
+    install: ""
+  - name: HavocFramework/Modules
+    install: ""
+  - name: Mr-Un1k0d3r/SCShell
+    install: ""
+  - name: anthemtotheego/InlineExecute-Assembly
+    install: ""
+  - name: Octoberfest7/Inline-Execute-PE
+    install: ""
+  - name: med0x2e/ExecuteAssembly
+    install: ""
+  - name: praetorian-inc/PortBender
+    install: ""
+  - name: mgeeky/cobalt-arsenal
+    install: ""
+  - name: trustedsec/CS-Situational-Awareness-BOF
+    install: ""
+  - name: 0xthirteen/StayKit
+    install: ""
+  - name: 0xthirteen/MoveKit
+    install: ""
+  - name: fireeye/SharPersist
+    install: ""
+  - name: bitsadmin/nopowershell
+    install: ""
+  - name: fortra/No-Consolation
+    install: ""
+  - name: rsmudge/ElevateKit
+    install: ""
+  - name: phra/PEzor
+    install: ""
+  - name: CCob/SharpBlock
+    install: ""
+  - name: rasta-mouse/TikiTorch
+    install: ""
+  - name: TheWover/donut
+    install: ""
+  - name: h3ll0clar1c3/CRTO
+    install: ""
+  - name: REDMED-X/OperatorsKit
+    install: ""
+  - name: outflanknl/C2-Tool-Collection
+    install: ""
+  - name: outflanknl/HelpColor
     install: ""
 
 ConfigurationAndDeploymentTools:
@@ -336,4 +537,44 @@ ConnectionTools:
 
 ReportingTools:
   - name: sysreptor
+    install: ""
+
+WebScanningAndEnumeration:
+  - name: gobuster
+    install: ""
+  - name: feroxbuster
+    install: ""
+  - name: wfuzz
+    install: ""
+  - name: ffuf
+    install: ""
+  - name: katana
+    install: ""
+  - name: metagoofil
+    install: ""
+
+BruteForceTools:
+  - name: thc-hydra
+    install: ""
+  - name: smartbrute
+    install: ""
+  - name: kerbrute
+    install: ""
+  - name: ropnop/kerbrute
+    install: ""
+
+SQLTools:
+  - name: sqlmap
+    install: ""
+
+MailTools:
+  - name: dmarc_checker
+    install: ""
+  - name: mail-spoofer
+    install: ""
+
+PhishingTools:
+  - name: evilginx2
+    install: ""
+  - name: Modlishka
     install: ""
