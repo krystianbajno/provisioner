@@ -120,7 +120,7 @@ def provision_item(basePath, provisionKey, item):
     os.makedirs(install_dir, exist_ok=True)
     
     if REPO_IDENT in url:
-        subprocess.run(["git", "clone", item.get("url"), install_dir], shell=True, text=True, capture_output=True)
+        subprocess.call(["git", "clone", item.get("url"), install_dir], shell=True, text=True, capture_output=True)
     else:
         filename = os.path.basename(url)
         response = urllib.request.urlopen(url)
@@ -129,7 +129,7 @@ def provision_item(basePath, provisionKey, item):
             file.write(content)
     
     if install_instructions:
-        subprocess.run(f'cd {install_dir} && {install_instructions}', shell=True, text=True, capture_output=True)
+        subprocess.call(f'cd {install_dir} && {install_instructions}', shell=True, text=True, capture_output=True)
 
     print(f"{Green}[+] {name}{Color_Off}: {provisionKey} / {category} {Cyan}$ {install_instructions}{Color_Off} - {Blue}{url}{Color_Off}")
 
