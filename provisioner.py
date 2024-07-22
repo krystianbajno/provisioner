@@ -120,7 +120,7 @@ def provision_item(basePath, provisionKey, item):
     os.makedirs(install_dir, exist_ok=True)
     
     if REPO_IDENT in url:
-        subprocess.call(f"git clone {item.get("url")} {install_dir}", shell=True, text=True)
+        subprocess.call(f"git clone {item.get('url')} {install_dir}", shell=True, text=True)
     else:
         filename = os.path.basename(url)
         response = urllib.request.urlopen(url)
