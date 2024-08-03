@@ -5,6 +5,7 @@
 4. Move repositories to dirs, group by compiled / to distribute and not. Create directories according for each for in for. Exploits are seperate category.
 5. The tools that are encrypted are personal. Algorithm is AES-256-GCM.
 # NoDistribute
+https://github.com/evilsocket/legba
 https://github.com/Syslifters/sysreptor
 https://github.com/Mr-Un1k0d3r/SCShell
 https://github.com/vanhauser-thc/thc-hydra
