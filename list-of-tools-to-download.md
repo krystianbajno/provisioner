@@ -81,6 +81,8 @@ https://github.com/6point6/dmarc_checker
 https://github.com/6point6/mail-spoofer
 https://github.com/t0thkr1s/gpp-decrypt
 https://github.com/Dec0ne/ShadowSpray
+https://github.com/Datalux/Osintgram
+https://github.com/mxrch/GHunt
 # Web
 https://github.com/OJ/gobuster
 https://github.com/epi052/feroxbuster
